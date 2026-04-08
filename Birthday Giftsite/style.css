@@ -1,0 +1,92 @@
+@font-face {
+    font-family: breaking;
+    src: url("Heart\ Breaking\ Bad.otf");
+}
+
+@font-face {
+    font-family: mystery;
+    src: url("MysteryQuest-Regular.ttf");
+}
+
+body{
+    font-family: mystery;
+    text-align: center;
+    background: linear-gradient(#90a955 , #228d1a);
+    /*background: #90a955;*/
+    color: black;
+    text-shadow: .5px .5px 1px #fca311;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+
+
+.gift-title{
+    margin-bottom: 20px;
+}
+
+.gift-cover{
+    background-image: url("bbad.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 600px;
+    border: 3px solid #fca311 ;
+    border-radius: 7px;
+}
+
+#jesse:hover{
+    background-image: url("jesse.gif");
+}
+
+#white:hover{
+    background-image: url("white.gif");
+}
+
+#genius:hover{
+    background-image: url("badass.gif");
+}
+
+#badass:hover{
+    background-image: url("genius.gif");
+}
+
+#cheers{
+    height: 300px;
+}
+
+#cheers:hover{
+    background-image: url("cheer.gif");
+}
+
+
+#pic{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 3px solid #fca311;
+}
+
+#age{
+     font-family: mystery;
+     color: black;
+     text-shadow: .5px .5px 1px #fca311;
+     background: #ecf39e;
+     padding: 8px 10px;
+     margin: 15px;
+     border-radius: 4px;
+}
+
+#date{
+    font-family: mystery;
+     color: black;
+     text-shadow: .5px .5px 1px #fca311;
+     background: #ecf39e;
+     padding: 8px 10px;
+     margin: 10px;
+     border-radius: 4px;
+}
